@@ -5,6 +5,9 @@
     color: #333;
 } */
 
+/*https://media.gettyimages.com/id/1397892877/video/beautiful-particles-with-shallow-depth-of-field-loopable-blue-version-abstract-background.jpg?s=640x640&k=20&c=mPjvGXBztTXuD7-oxiNFBejvEiag72Rr-vci2zuBEp4=*/
+
+
 body.light-theme {
     position: relative; /* Ensure the pseudo-element is positioned correctly */
 }
@@ -341,3 +344,48 @@ body.dark-theme {
 }
 
 
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .skills-container,
+    .experience-container {
+        flex-direction: column;
+    }
+
+    #about, #projects, #packages, #skills {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    #theme-toggle {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    .profile-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    #theme-toggle {
+        font-size: 1em;
+        right: 10px;
+    }
+
+    .skill, .experience-item {
+        margin: 10px 0;
+    }
+}
