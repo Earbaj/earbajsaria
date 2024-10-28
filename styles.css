@@ -1,8 +1,28 @@
 /* Light Theme */
-body.light-theme {
+
+/* body.light-theme {
     background-color: #f0f0f0;
     color: #333;
+} */
+
+body.light-theme {
+    position: relative; /* Ensure the pseudo-element is positioned correctly */
 }
+
+body.light-theme::before {
+    content: "";
+    position: absolute; /* Position it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/273/920/non_2x/deep-ocean-background-vector.jpg'); /* Add your light background image */
+    background-size: cover; /* Cover the entire body */
+    background-position: center; /* Center the image */
+    opacity: 0.2; /* Set transparency to 50% */
+    z-index: -1; /* Send it behind other content */
+}
+
 
 header {
     display: flex;
@@ -295,6 +315,11 @@ body.dark-theme #about p {
     color: #e0e0e0; /* Light gray text color for paragraphs in dark theme */
 }
 
+
+
+body.dark-theme {
+    color: #f0f0f0; /* White color for dark theme */
+}
 
 #theme-toggle.dark-theme {
     background-color: #ffffff; /* Keeps button background white */
