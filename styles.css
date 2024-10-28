@@ -154,8 +154,8 @@ body.dark-theme #experience h2 {
 }
 
 .tech-icon {
-    width: 40px; /* Icon size */
-    height: 40px; /* Icon size */
+    width: 60px; /* Icon size */
+    height: 60px; /* Icon size */
     border-radius: 50%; /* Circular icons */
 }
 
