@@ -1,0 +1,285 @@
+/* Light Theme */
+body.light-theme {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #a38585;
+    margin: 0;
+}
+
+#theme-toggle {
+    position: absolute;
+    right: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    border-radius: 20px; /* Rounded corners */
+    border: 1px solid #ccc; /* Optional border */
+}
+
+/* Section styling */
+section {
+    width: auto; /* Set to auto to allow dynamic width */
+    height: auto; /* Set to auto to allow dynamic height */
+    max-width: 1800px; /* Optional: Limit maximum width */
+    text-align: left; /* Align text to the left */
+    padding: 20px; /* Add padding */
+    margin-bottom: 20px; /* Space between sections */
+    background: none; /* Remove background color */
+    box-shadow: none; /* Remove shadow */
+    border-radius: 0; /* Remove border radius */
+}
+
+.profile-image {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center it horizontally */
+    border-radius: 50%; /* Make it circular */
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the circle */
+}
+
+/* About Section */
+#about {
+    text-align: left; /* Align text to the left */
+    padding: 20px; /* Add some padding if needed */
+}
+
+#about {
+    font-family: 'Arial', sans-serif; /* Use a modern font */
+    line-height: 1.6; /* Increase line height for readability */
+    text-align: left; /* Align text to the left */
+    padding: 20px; /* Add padding */
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the section */
+}
+
+#about h2 {
+    font-size: 2em; /* Make the heading larger */
+    color: #1b242e; /* Use a modern color */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+#about p {
+    margin: 10px 0; /* Add space between paragraphs */
+    color: #333; /* Darker text color for contrast */
+}
+
+/* Experience Section */
+#experience h2 {
+    text-align: center; /* Center the header */
+    font-size: 2em; /* Adjust font size if needed */
+    margin-bottom: 20px; /* Space below the header */
+    color: #1b242e; /* Modern color for light theme */
+}
+
+body.dark-theme #experience h2 {
+    color: #f0f0f0; /* White color for dark theme */
+}
+
+.experience-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+}
+
+.experience-item {
+    display: flex;
+    align-items: center; /* Center emoji and text vertically */
+    margin: 0 20px; /* Space between experience items */
+    text-align: center; /* Center text under emoji */
+}
+
+.emoji-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Circular size */
+    height: 40px; /* Circular size */
+    border-radius: 50%; /* Make it circular */
+    background-color: #e0e0e0; /* Light gray background */
+    margin-right: 10px; /* Space between emoji and text */
+    font-size: 1.5em; /* Adjust size of the emoji */
+    padding: 5px; /* Add padding */
+}
+
+/* Project Section */
+#projects {
+    text-align: center; /* Center the section */
+    padding: 20px; /* Add padding */
+}
+
+#projects h2{
+    text-align: left; /* Center the section */
+}
+
+.project {
+    margin-bottom: 20px; /* Space between projects */
+    border: 1px solid #ccc; /* Optional border for separation */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Add padding inside the project box */
+}
+
+.project-info h3 {
+    margin: 0; /* Remove default margin */
+    color: #1b242e; /* Modern color for light theme */
+}
+
+.project-info p {
+    color: #333; /* Darker text for readability */
+}
+
+.technologies {
+    display: flex; /* Flex layout for icons */
+    justify-content: center; /* Center icons */
+    margin-top: 10px; /* Space above the icons */
+}
+
+.tech-item {
+    text-align: center; /* Center text under icons */
+    margin: 0 10px; /* Space between items */
+}
+
+.tech-icon {
+    width: 40px; /* Icon size */
+    height: 40px; /* Icon size */
+    border-radius: 50%; /* Circular icons */
+}
+
+.tech-item span {
+    display: block; /* Ensure text is on a new line */
+    font-size: 14px; /* Adjust font size */
+    color: #1b242e; /* Darker color for text */
+}
+
+
+/* Package Section */
+#packages {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+#packages h2 {
+    text-align: left;
+    font-size: 2em;
+    color: #1b242e;
+    margin-bottom: 10px;
+}
+
+#packages ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+}
+
+#packages li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border for sections */
+    border-radius: 5px;
+}
+
+#packages a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+#packages a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+/* Skill Section */
+
+
+#skills {
+    text-align: left;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+
+#skills h2 {
+    font-size: 2em;
+    color: #1b242e;
+    margin-bottom: 10px;
+}
+
+#skills h3 {
+    text-align: center;
+    font-size: 1em;
+    color: #1b242e;
+    margin-bottom: 10px;
+}
+
+
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: center; /* Center align items */
+    margin-bottom: 20px; /* Space below each skill group */
+}
+
+.skill {
+    display: flex;
+    flex-direction: column; /* Stack icon above text */
+    align-items: center; /* Center items */
+    margin: 10px; /* Space between skills */
+}
+
+.skill-icon {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Cover the circle */
+    background-color: #f0f0f0; /* Optional: Background color for icons */
+    padding: 5px; /* Padding around the image */
+}
+
+
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+
+
+header.dark-theme h1 {
+    color: #2c3e50; /* Keeps header title color consistent */
+}
+
+
+/* Dark Theme */
+body.dark-theme #about h2 {
+    color: #f0f0f0; /* White color for headings in dark theme */
+}
+
+body.dark-theme #about p {
+    color: #e0e0e0; /* Light gray text color for paragraphs in dark theme */
+}
+
+
+#theme-toggle.dark-theme {
+    background-color: #ffffff; /* Keeps button background white */
+    color: #000000; /* Keeps button text black */
+    border-radius: 20px;
+}
+
